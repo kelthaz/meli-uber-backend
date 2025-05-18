@@ -1,0 +1,38 @@
+{
+  "name": "meli-uber-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --coverage",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "lint": "eslint src"
+  },
+  "keywords": [],
+  "author": "Carlos David Prado Hernandez",
+  "license": "ISC",
+  "description": "Meli-Uber es una aplicación de backend desarrollada con Node.js, orientada a simular una plataforma de solicitud de viajes similar a Uber, optimizada para manejar concurrencia, pagos y procesamiento de solicitudes de forma eficiente.",
+  "dependencies": {
+    "express": "^5.1.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",    
+    "uuid": "^11.1.0" 
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.15.18",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.8",
+    "@types/uuid": "^10.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
+    "eslint": "^9.27.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.4",
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3" 
+  } 
+}
