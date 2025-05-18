@@ -527,3 +527,8 @@ curl -X 'POST' \
 * Manejo de concurrencia y colas para solicitudes en simultáneo
 * Módulo de pagos con validaciones antifraude
 * Logger estructurado y trazabilidad de errores
+
+
+##  Diagrama de flujo
+
+[View on Eraser![](https://app.eraser.io/workspace/H6KGTv3K082ckbUuDdia/preview?elements=hD5pm7l4NZq5QQxstPSdCQ&type=embed)](https://app.eraser.io/workspace/H6KGTv3K082ckbUuDdia?elements=hD5pm7l4NZq5QQxstPSdCQ)
